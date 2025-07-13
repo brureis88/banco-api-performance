@@ -55,7 +55,7 @@ Este projeto tem como objetivo realizar testes de carga e performance em APIs RE
 
 2. Execute o teste com o K6:
    ```bash
-   k6 run tests/login.teste.js
+   k6 run tests/login.test.js
    ```
    Certifique-se de passar a variável de ambiente `BASE_URL`, caso não esteja usando um `config.local.json` ou uma abordagem de carregamento automático:
 
@@ -65,7 +65,7 @@ Este projeto tem como objetivo realizar testes de carga e performance em APIs RE
 
 3. Para acompanhar o relatório em tempo real via dashboard web e exportar os resultados:
    ```bash
-   K6_WEB_DASHBOARD=true K6_WEB_DASHBOARD_EXPORT=html-report.html k6 run tests/login.test.js --e BASE_URL=http://localhost:3000
+   K6_WEB_DASHBOARD=true K6_WEB_DASHBOARD_EXPORT=html-report.html k6 run tests/login.test.js -e BASE_URL=http://localhost:3000
    ```
 
    Após a execução, o relatório estará salvo como `html-report.html`
