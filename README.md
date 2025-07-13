@@ -69,5 +69,3 @@ Este projeto tem como objetivo realizar testes de carga e performance em APIs RE
    ```
 
    Após a execução, o relatório estará salvo como `html-report.html`
-
-## 📎 Link do Repositório
